@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northbound - Transform Your Child's Math Confidence</title>
+    <!-- Load Inter font from CDN -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <!-- Configure Tailwind with custom font -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Your existing Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white font-inter">
+    <!-- Navigation -->
+    <nav
+      class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <a href="#home" class="text-xl font-bold text-gray-900">
+            Northbound
+          </a>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="py-2 text-gray-700 hover:text-gray-900 transition"
+              >Home</a
+            >
+            <a
+              href="about.html"
+              target="noreferrer noopener"
+              class="py-2 text-gray-700 hover:text-gray-900 transition"
+              >About</a
+            >
+            <a
+              href="https://forms.gle/z96RbYi3TQpzWjFW7"
+              target="_blank noreferrer noopener"
+              class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Left Column - Text -->
+          <div class="space-y-6">
+            <div class="inline-block">
+              <span
+                class="bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium"
+              >
+                Elite Math Coaching for Middle Schoolers
+              </span>
+            </div>
+            <h1
+              class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight"
+            >
+              Transform Frustration<br />
+              <span class="text-indigo-600"> Into Mastery</span>
+            </h1>
+            <p class="text-xl text-gray-600 leading-relaxed">
+              Stop the nightly homework battles. Your child can go from "I hate
+              math" to confidently solving problems they've never seen before—in
+              just 8 weeks.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 pt-4">
+              <a
+                href="https://forms.gle/z96RbYi3TQpzWjFW7"
+                target="_blank noreferrer noopener"
+                class="inline-flex items-center justify-center bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition shadow-lg hover:shadow-xl"
+              >
+                Start Your Transformation
+                <svg
+                  class="w-5 h-5 ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+              <a
+                href="about.html"
+                class="inline-flex items-center justify-center border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:border-indigo-600 hover:text-indigo-600 transition"
+              >
+                My Story
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column - Image -->
+          <div class="relative">
+            <div
+              class="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl"
+            >
+              <img
+                src="IMG_4677.jpg"
+                alt="Joshua Smith"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-indigo-600/20 to-transparent"
+              ></div>
+            </div>
+            <!-- Floating Cards -->
+            <div
+              class="absolute -top-4 -right-4 bg-white rounded-xl shadow-xl p-4 border border-gray-100"
+            >
+              <div class="text-md text-gray-600">Graduated HS at</div>
+              <div class="text-3xl font-bold text-indigo-600">16</div>
+            </div>
+            <div
+              class="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-xl p-4 border border-gray-100"
+            >
+              <div class="text-3xl font-bold text-purple-600">5+</div>
+              <div class="text-md text-gray-600">Countries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 text-center"
+          >
+            <div class="text-4xl mb-4">🎯</div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Personalized Mastery Roadmap
+            </h3>
+            <p class="text-gray-600">
+              Custom diagnostic reveals exactly where your child is stuck—then
+              we build a plan to fix it
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 text-center"
+          >
+            <div class="text-4xl mb-4">🚀</div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Daily Confidence Building
+            </h3>
+            <p class="text-gray-600">
+              Just 10 minutes a day of purposeful practice with personal
+              feedback—no busy work
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm border border-gray-100 text-center"
+          >
+            <div class="text-4xl mb-4">💬</div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Unlimited Support
+            </h3>
+            <p class="text-gray-600">
+              Homework meltdown at 8pm? I respond to questions within 24
+              hours—you're never alone
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformation Promise -->
+    <section class="py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center space-y-6">
+        <h2 class="text-4xl font-bold text-gray-900">
+          This Isn't Just Tutoring—It's A Complete Transformation
+        </h2>
+        <p class="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+          Most tutors help kids memorize formulas and get through tonight's
+          homework. I rebuild your child's entire relationship with
+          math—teaching them how to think, not what to think. The result? A
+          confident problem-solver who tackles challenges head-on, in math and
+          beyond.
+        </p>
+        <div class="pt-8">
+          <a
+            href="about.html"
+            class="inline-flex items-center text-indigo-600 text-lg font-semibold hover:text-indigo-700 transition group"
+          >
+            Discover How I'm Different
+            <svg
+              class="w-5 h-5 ml-2 group-hover:translate-x-1 transition"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section
+      id="about"
+      class="relative py-20 px-4 bg-gradient-to-br from-indigo-950 via-indigo-800 to-indigo-900 text-white"
+    >
+      <div
+        class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"
+      ></div>
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+          Real Transformations from Real Families
+        </h2>
+        <p class="text-xl text-white">
+          Watch confidence grow, grades improve, and the "I can't do math"
+          mindset disappear
+        </p>
+      </div>
+      <div class="relative max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+        <div
+          class="relative overflow-hidden rounded-2xl p-8 text-center bg-white/10 border border-white/20 backdrop-blur-2xl shadow-2xl hover:bg-white/20 hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent opacity-30 pointer-events-none"
+          ></div>
+          <h3
+            class="relative text-lg md:text-xl font-semibold text-white drop-shadow-sm"
+          >
+            "I enjoyed his push to challenge me which helped me enhance my study
+            habits and overall get me more ready for middle school. I learned
+            about reciprocals ahead of time to help me when I needed it at
+            school."
+          </h3>
+          <p class="relative text-indigo-100 mt-4">- 6th Grade Student</p>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-2xl p-8 text-center bg-white/10 border border-white/20 backdrop-blur-2xl shadow-2xl hover:bg-white/20 hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent opacity-30 pointer-events-none"
+          ></div>
+          <h3
+            class="relative text-lg md:text-xl font-semibold text-white drop-shadow-sm"
+          >
+            "Joshua does a great job of balancing the student learning needs and
+            challenging them with new material."
+          </h3>
+          <p class="relative text-indigo-100 mt-4">- Dave Field, Parent</p>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-2xl p-8 text-center bg-white/10 border border-white/20 backdrop-blur-2xl shadow-2xl hover:bg-white/20 hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-500"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent opacity-30 pointer-events-none"
+          ></div>
+          <h3
+            class="relative text-lg md:text-xl font-semibold text-white drop-shadow-sm"
+          >
+            "I like how Joshua makes fun challenges, and if I got a math problem
+            wrong he would not be mad. Joshua taught me how to do long division
+            100%"
+          </h3>
+          <p class="relative text-indigo-100 mt-4">- 5th Grade Student</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Guarantee Section -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-3xl mx-auto text-center">
+        <div
+          class="bg-white rounded-2xl border-2 border-indigo-200 p-12 shadow-xl"
+        >
+          <div class="text-5xl mb-6">🎯</div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-6">
+            My Ironclad Guarantee
+          </h2>
+          <p class="text-xl text-gray-700 leading-relaxed mb-8">
+            If your child doesn't improve by at least one letter grade within 8
+            weeks, I'll continue working with them at no additional charge until
+            they do.
+          </p>
+          <p class="text-lg text-gray-600 italic">
+            That's how confident I am in this program. Your child's success is
+            my personal mission.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-white">
+      <div class="max-w-2xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Ready to End the Math Struggle?
+          </h2>
+          <p class="text-xl text-gray-600 mb-8">
+            Let's have a conversation about your child's unique challenges—and
+            map out their path to confidence and mastery.
+          </p>
+          <div
+            class="bg-indigo-50 border-2 border-indigo-200 rounded-xl p-6 mb-8"
+          >
+            <p class="text-lg text-gray-700 mb-2">
+              <strong>Limited Availability:</strong> I only work with a small
+              number of families at a time to ensure every child gets the
+              attention they deserve.
+            </p>
+            <p class="text-md text-gray-600">
+              If you're ready to invest in your child's math transformation,
+              let's talk.
+            </p>
+          </div>
+          <div class="mt-8">
+            <a
+              href="https://forms.gle/z96RbYi3TQpzWjFW7"
+              target="_blank noreferrer noopener"
+              class="inline-flex items-center bg-indigo-600 text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition shadow-lg hover:shadow-xl"
+            >
+              Apply for Your Spot
+              <svg
+                class="w-5 h-5 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-8 border-t border-gray-200 text-center">
+          <p class="text-xl text-gray-600 mb-5">
+            Questions? Reach out directly:
+          </p>
+          <a
+            class="text-xl text-gray-900 font-semibold"
+            href="mailto:hello@northboundtutoring.com"
+          >
+            📧 hello@northboundtutoring.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 px-4 mt-12">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex justify-between items-start gap-8">
+          <div class="flex flex-col gap-2">
+            <h3 class="font-semibold mb-2">LEGAL</h3>
+            <a
+              href="privacy.html"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="terms.html"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="copyright.html"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Copyright and IP Complaints
+            </a>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <h3 class="font-semibold mb-2">CONNECT</h3>
+            <a
+              href="careers.html"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Join Our Team
+            </a>
+            <a
+              href="mailto:hello@northboundtutoring.com"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Contact Us
+            </a>
+            <a
+              href="https://app.northboundtutoring.com"
+              target="_blank noreferrer noopener"
+              class="text-gray-400 hover:text-white transition"
+            >
+              NB Vector
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center mt-8 pt-8 border-t border-gray-800">
+          <div class="text-gray-400">
+            ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Northbound Tutoring. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
